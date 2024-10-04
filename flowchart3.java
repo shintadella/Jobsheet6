@@ -32,11 +32,11 @@ public class flowchart3 {
         } else if (merk.equalsIgnoreCase("Skatcher")) {
             if (ukuran >= 36 && ukuran<=40) {
                 harga = 1000000;
-                System.out.println("Kategori sepatu untuk Wanita/woman dengan harga Rp "+ harga);
+                System.out.println("Kategori sepatu untuk Pria/man dengan harga Rp "+ harga);
             }
             else if (ukuran >= 41 && ukuran<=44) {
                 harga = 180000;
-                System.out.println("Kategori sepatu untuk Pri/man dengan harga Rp "+ harga);
+                System.out.println("Kategori sepatu untuk Wanita/woman dengan harga Rp "+ harga);
             }else {
                 System.out.println("Ukuran sepatu anda tidak tersedia!");
             }
